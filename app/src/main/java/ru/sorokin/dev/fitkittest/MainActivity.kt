@@ -1,12 +1,11 @@
-package ru.sorokin.dev.fitkit_test
+package ru.sorokin.dev.fitkittest
 
 import android.os.Bundle
 import android.support.annotation.IdRes
-import android.support.design.widget.Snackbar
-import android.support.v7.app.AppCompatActivity;
+import android.support.v7.app.AppCompatActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
-import ru.sorokin.dev.fitkit_test.ui.home.HomeFragment
+import ru.sorokin.dev.fitkittest.ui.home.HomeFragment
 
 class MainActivity : AppCompatActivity() {
 

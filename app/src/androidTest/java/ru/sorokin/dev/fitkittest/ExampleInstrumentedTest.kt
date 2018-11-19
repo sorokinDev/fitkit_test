@@ -1,4 +1,4 @@
-package ru.sorokin.dev.fitkit_test
+package ru.sorokin.dev.fitkittest
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

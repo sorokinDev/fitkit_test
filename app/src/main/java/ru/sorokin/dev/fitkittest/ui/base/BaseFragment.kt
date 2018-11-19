@@ -1,13 +1,11 @@
-package ru.sorokin.dev.fitkit_test.ui.base
+package ru.sorokin.dev.fitkittest.ui.base
 
 import android.os.Bundle
 import android.support.annotation.LayoutRes
-import android.support.annotation.StringRes
 import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import org.koin.android.viewmodel.ext.android.viewModel
 import org.koin.android.viewmodel.ext.android.viewModelByClass
 import kotlin.reflect.KClass
 

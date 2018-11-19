@@ -1,8 +1,8 @@
-package ru.sorokin.dev.fitkit_test
+package ru.sorokin.dev.fitkittest
 
 import android.app.Application
 import org.koin.android.ext.android.startKoin
-import ru.sorokin.dev.fitkit_test.di.mainModule
+import ru.sorokin.dev.fitkittest.di.mainModule
 import timber.log.Timber
 
 class App: Application() {

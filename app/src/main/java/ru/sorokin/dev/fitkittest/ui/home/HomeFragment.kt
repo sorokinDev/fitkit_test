@@ -1,8 +1,8 @@
-package ru.sorokin.dev.fitkit_test.ui.home
+package ru.sorokin.dev.fitkittest.ui.home
 
 import android.widget.Toast
-import ru.sorokin.dev.fitkit_test.R
-import ru.sorokin.dev.fitkit_test.ui.base.BaseFragment
+import ru.sorokin.dev.fitkittest.R
+import ru.sorokin.dev.fitkittest.ui.base.BaseFragment
 
 class HomeFragment: BaseFragment<HomeViewModel>(HomeViewModel::class){
 
