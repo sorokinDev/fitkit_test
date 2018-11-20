@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
+        setTitle(R.string.title_activity_main)
 
         if(savedInstanceState == null){
             supportFragmentManager.beginTransaction()

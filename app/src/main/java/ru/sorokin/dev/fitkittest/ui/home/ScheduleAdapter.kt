@@ -12,6 +12,7 @@ import kotlinx.android.synthetic.main.item_lesson.*
 import org.w3c.dom.Text
 import ru.sorokin.dev.fitkittest.R
 import ru.sorokin.dev.fitkittest.model.local.entiry.Lesson
+import timber.log.Timber
 
 class LessonItem(val data: Lesson): IComparableItem {
     override fun id() = data.appointmentId
@@ -29,7 +30,7 @@ class LessonDelegateAdapter(val daysOfWeek: List<String>)
         tv_place_name.text = item.data.place
         tv_start_time.text = item.data.startTime
         tv_end_time.text = item.data.endTime
-        tv_day_of_week.text = daysOfWeek[maxOf(daysOfWeek.count()-1,item.data.weekDay+1)].capitalize()
+        tv_day_of_week.text = daysOfWeek[(item.data.weekDay+1) % 8].capitalize()
     }
 
     override fun isForViewType(items: List<*>, position: Int) = items[position] is LessonItem
