@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">fitkit-test</string>
+    <string name="app_name">FitKit Schedule</string>
+    <string name="title_activity_main">Schedule</string>
+    <string name="no_connection">No connection. Tap to retry.</string>
 </resources>

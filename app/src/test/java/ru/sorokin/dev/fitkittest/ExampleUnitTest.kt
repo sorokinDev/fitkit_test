@@ -1,4 +1,4 @@
-package ru.sorokin.dev.fitkit_test
+package ru.sorokin.dev.fitkittest
 
 import org.junit.Test
 
