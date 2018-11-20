@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitKit Schedule</string>
+    <string name="title_activity_main">Расписание на неделю</string>
+    <string name="no_connection">Нет соединения. Нажмите, чтобы повторить.</string>
+</resources>
